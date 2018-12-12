@@ -709,5 +709,5 @@ if __name__=="__main__":
     init_db()
     retrive_data1()
     retrive_data2()
-    print("You have successfully build the databse, now you can run the app!")
+    print("You have successfully build the databse!")
 

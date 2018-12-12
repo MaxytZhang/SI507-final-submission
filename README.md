@@ -17,6 +17,7 @@ Display the weight of different genres<br>
 IMDB data: OMDB API<br>
 Douban data: https://movie.douban.com/top250<br>
 *requests is used to fetch the data from website<br>*
+*prepare your OMDB API KEY!*
 
 ## Get Started
 *Please follow the instructions to guarantee data is ready<br>*
@@ -34,6 +35,15 @@ If you want to close the virtual environment<br>
 ```
 $ Deactivate
 ```
+
+### API KEY
+You apply your OMDB API KEY here:<br>
+http://www.omdbapi.com/apikey.aspx<br>
+Create a python file named **secret.py**<br>
+And enter your API KEY!
+```
+api_key = 'your_api_key'
+``` 
 
 ### Data Sample
 You can directly use the data sample provided by downloading **douban_cache.json, imdbb_cache.json, movie.dbb**<br>
